@@ -1,4 +1,4 @@
-module apps.sys;
+module apps.systems;
 
 mixin(ImportPhobos!());
 
@@ -18,10 +18,11 @@ public import uim.servers;
 public import langs.javascript;
 
 public {
-  import apps.sys.controllers;
-  import apps.sys.helpers;
-  import apps.sys.tests;
-  import apps.sys.views;
+  import apps.systems.controllers;
+  import apps.systems.helpers;
+  import apps.systems.routers;
+  import apps.systems.tests;
+  import apps.systems.views;
 }
 
 DApp systemsApp;
