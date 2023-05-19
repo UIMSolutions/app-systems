@@ -28,7 +28,7 @@ public {
 DApp systemsApp;
 static this() {
   systemsApp = App
-    .name("systemsApp")
+    .name("SYSApp")
     .rootPath("/apps/systems")
     .addRoute(Route("", HTTPMethod.GET, SYSIndexPageController))
     .addRoute(Route("/", HTTPMethod.GET, SYSIndexPageController));

@@ -3,15 +3,15 @@ module apps.systems.views.error;
 import apps.systems;
 @safe:
 
-class DsystemsErrorView : DView {
-  mixin(ViewThis!("systemsErrorView"));
+class DSYSErrorView : DView {
+  mixin(ViewThis!("SYSErrorView"));
 
   override void beforeH5(STRINGAA options = null) {
     super.beforeH5(options);
   }
 
   override DH5Obj[] toH5(STRINGAA options = null) {
-    debugMethodCall(moduleName!DsystemsErrorView~":DsystemsErrorView("~this.name~")::toH5");
+    debugMethodCall(moduleName!DSYSErrorView~":DSYSErrorView("~this.name~")::toH5");
     super.toH5(options);
 
     return [
@@ -19,4 +19,4 @@ class DsystemsErrorView : DView {
     ].toH5;
   }
 }
-mixin(ViewCalls!("systemsErrorView"));
+mixin(ViewCalls!("SYSErrorView"));

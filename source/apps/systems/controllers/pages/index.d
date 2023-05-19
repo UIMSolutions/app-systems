@@ -3,14 +3,14 @@ module apps.systems.controllers.pages.index;
 import apps.systems;
 @safe:
 
-class DsystemsIndexPageController : DAPPPageController {
-  mixin(ControllerThis!("systemsIndexPageController"));
+class DSYSIndexPageController : DAPPPageController {
+  mixin(ControllerThis!("SYSIndexPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
     super.initialize(configSettings);
 
     this
-      .view(systemsIndexView(this));
+      .view(SYSIndexView(this));
   }
 }
-mixin(ControllerCalls!("systemsIndexPageController"));
+mixin(ControllerCalls!("SYSIndexPageController"));
