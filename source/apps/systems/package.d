@@ -27,11 +27,11 @@ public {
   import apps.systems.views;
 }
 
-DApp systemsApp;
 static this() {
-  systemsApp = App
-    .name("SYSApp")
+  AppRegistry.register(  
+    App
+    .name("systemsApp")
     .rootPath("/apps/systems")
     .addRoute(Route("", HTTPMethod.GET, SYSIndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, SYSIndexPageController));
+    .addRoute(Route("/", HTTPMethod.GET, SYSIndexPageController)));
 }
