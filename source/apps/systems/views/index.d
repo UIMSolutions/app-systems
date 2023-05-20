@@ -3,11 +3,11 @@ module apps.systems.views.index;
 import apps.systems;
 @safe:
 
-class DSYSIndexView : DView {
-  mixin(ViewThis!("SYSIndexView"));
+class DIndexView : DView {
+  mixin(ViewThis!("IndexView"));
 
   override DH5Obj[] toH5(STRINGAA options = null) {
-    debugMethodCall(moduleName!DSYSIndexView~":DSYSIndexView("~this.className~")::toH5");
+    debugMethodCall(moduleName!DIndexView~":DIndexView("~this.className~")::toH5");
     super.toH5(options);
 
     return [
@@ -15,4 +15,4 @@ class DSYSIndexView : DView {
     ].toH5;
   }
 }
-mixin(ViewCalls!("SYSIndexView"));
+mixin(ViewCalls!("IndexView"));

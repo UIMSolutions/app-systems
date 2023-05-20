@@ -32,6 +32,6 @@ static this() {
     App
     .name("systemsApp")
     .rootPath("/apps/systems")
-    .addRoute(Route("", HTTPMethod.GET, SYSIndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, SYSIndexPageController)));
+    .addRoute(Route("", HTTPMethod.GET, IndexPageController))
+    .addRoute(Route("/", HTTPMethod.GET, IndexPageController)));
 }
