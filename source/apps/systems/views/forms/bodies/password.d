@@ -1,4 +1,4 @@
-module apps.systems.views.components.forms.bodies.password;
+module apps.systems.views.forms.bodies.password;
 
 @safe:
 import apps.systems;

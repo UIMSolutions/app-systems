@@ -1,4 +1,4 @@
-module apps.systems.views.components.forms.bodies.tenant;
+module apps.systems.views.forms.bodies.tenant;
 
 @safe:
 import apps.systems;

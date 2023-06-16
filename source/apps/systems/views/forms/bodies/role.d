@@ -1,4 +1,4 @@
-module apps.systems.views.components.forms.bodies.role;
+module apps.systems.views.forms.bodies.role;
 
 @safe:
 import apps.systems;
