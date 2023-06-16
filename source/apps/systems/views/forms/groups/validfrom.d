@@ -1,4 +1,4 @@
-module apps.systems.views.components.forms.groups.validfrom;
+module apps.systems.views.forms.groups.validfrom;
 
 @safe:
 import apps.systems;

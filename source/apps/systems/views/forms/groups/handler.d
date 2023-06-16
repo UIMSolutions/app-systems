@@ -1,4 +1,4 @@
-module apps.systems.views.components.forms.groups.handler;
+module apps.systems.views.forms.groups.handler;
 
 @safe:
 import apps.systems;

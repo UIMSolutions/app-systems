@@ -1,4 +1,4 @@
-module apps.systems.views.components.forms.groups.otp;
+module apps.systems.views.forms.groups.otp;
 
 @safe:
 import apps.systems;

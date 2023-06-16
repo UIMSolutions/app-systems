@@ -1,4 +1,4 @@
-module apps.systems.views.components.forms.groups.validuntil;
+module apps.systems.views.forms.groups.validuntil;
 
 @safe:
 import apps.systems;
