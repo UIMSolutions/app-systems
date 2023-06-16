@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.app;
+module apps.systems.views.components.forms.app;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DCTLAppForm : DForm {
   mixin(ViewComponentThis!("CTLAppForm"));

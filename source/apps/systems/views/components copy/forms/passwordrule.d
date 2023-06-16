@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.passwordrule;
+module apps.systems.views.components.forms.passwordrule;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DCTLPasswordRuleForm : DForm {
   this() { super();

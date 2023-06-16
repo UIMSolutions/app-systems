@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.password;
+module apps.systems.views.components.forms.password;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DCTLPasswordForm : DForm {
   mixin(ViewComponentThis!("CTLPasswordForm"));

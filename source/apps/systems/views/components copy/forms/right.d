@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.right;
+module apps.systems.views.components.forms.right;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DCTLRightForm : DForm {
   this() { super();

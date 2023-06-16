@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.account;
+module apps.systems.views.components.forms.account;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DCTLAccountForm : DForm {
   mixin(ViewComponentThis!("CTLAccountForm"));

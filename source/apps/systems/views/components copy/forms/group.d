@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.group;
+module apps.systems.views.components.forms.group;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DCTLGroupForm : DForm {
   mixin(ViewComponentThis!("CTLGroupForm"));

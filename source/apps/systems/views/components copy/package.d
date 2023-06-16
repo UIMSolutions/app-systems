@@ -1,7 +1,7 @@
-module uim.systems.views.components;
+module apps.systems.views.components;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 // Package 
-public import uim.systems.views.components.forms;
+public import apps.systems.views.components.forms;

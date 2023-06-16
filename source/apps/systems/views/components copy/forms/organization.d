@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.organization;
+module apps.systems.views.components.forms.organization;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DCTLOrganizationForm : DForm {
   mixin(ViewComponentThis!("CTLOrganizationForm"));
