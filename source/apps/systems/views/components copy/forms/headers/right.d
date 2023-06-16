@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.headers.right;
+module apps.systems.views.components.forms.headers.right;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSystemRightFormHeader : DFormHeader {
   mixin(ViewComponentThis!("SystemRightFormHeader"));

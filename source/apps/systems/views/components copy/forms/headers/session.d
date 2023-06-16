@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.headers.session;
+module apps.systems.views.components.forms.headers.session;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSystemSessionFormHeader : DFormHeader {
   mixin(ViewComponentThis!("SystemSessionFormHeader"));

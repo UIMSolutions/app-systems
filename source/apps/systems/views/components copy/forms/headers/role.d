@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.headers.role;
+module apps.systems.views.components.forms.headers.role;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSystemRoleFormHeader : DFormHeader {
   mixin(ViewComponentThis!("SystemRightFormHeader"));

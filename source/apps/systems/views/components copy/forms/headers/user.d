@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.headers.user;
+module apps.systems.views.components.forms.headers.user;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSystemUserFormHeader : DFormHeader {
   mixin(ViewComponentThis!("SystemUserFormHeader"));
