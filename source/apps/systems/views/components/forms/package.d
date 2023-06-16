@@ -9,13 +9,15 @@ public import apps.systems.views.components.forms.groups;
 public import apps.systems.views.components.forms.headers;
 
 // Modules
-public import apps.systems.views.components.forms.account;
-public import apps.systems.views.components.forms.app;
-public import apps.systems.views.components.forms.group;
-public import apps.systems.views.components.forms.organization;
-public import apps.systems.views.components.forms.passwordrule;
-public import apps.systems.views.components.forms.password;
-public import apps.systems.views.components.forms.right;
-public import apps.systems.views.components.forms.role;
-public import apps.systems.views.components.forms.site;
-public import apps.systems.views.components.forms.user;
+public {
+  import apps.systems.views.components.forms.account;
+  import apps.systems.views.components.forms.app;
+  import apps.systems.views.components.forms.group;
+  import apps.systems.views.components.forms.organization;
+  import apps.systems.views.components.forms.passwordrule;
+  import apps.systems.views.components.forms.password;
+  import apps.systems.views.components.forms.right;
+  import apps.systems.views.components.forms.role;
+  import apps.systems.views.components.forms.site;
+  import apps.systems.views.components.forms.user;
+}
