@@ -1,4 +1,4 @@
-module apps.systems.views.components.forms.headers.session;
+module apps.systems.views.forms.headers.session;
 
 @safe:
 import apps.systems;
