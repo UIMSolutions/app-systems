@@ -1,4 +1,4 @@
-module apps.systems.views.components.forms.app;
+module apps.systems.views.forms.app;
 
 @safe:
 import apps.systems;

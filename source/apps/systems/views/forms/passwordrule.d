@@ -1,4 +1,4 @@
-module apps.systems.views.components.forms.passwordrule;
+module apps.systems.views.forms.passwordrule;
 
 @safe:
 import apps.systems;
