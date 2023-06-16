@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.headers.account;
+module apps.systems.views.components.forms.headers.account;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSystemAccountFormHeader : DFormHeader {
   mixin(ViewComponentThis!("SystemAccountFormHeader"));

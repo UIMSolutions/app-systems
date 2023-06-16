@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.groups.otp;
+module apps.systems.views.components.forms.groups.otp;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 /* class DCTLOtpFormInput : DSwitchFormInput {
   mixin(ViewComponentThis!("CTLOtpFormInput"));
