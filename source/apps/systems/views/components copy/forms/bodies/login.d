@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.bodies.login;
+module apps.systems.views.components.forms.bodies.login;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSystemLoginFormContent : DEntityFormContent {
   mixin(ViewComponentThis!("SystemLoginFormContent"));

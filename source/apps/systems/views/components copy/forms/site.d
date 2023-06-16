@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.site;
+module apps.systems.views.components.forms.site;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DCTLSiteForm : DForm {
   mixin(ViewComponentThis!("CTLSiteForm"));

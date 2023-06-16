@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.bodies.passwordrule;
+module apps.systems.views.components.forms.bodies.passwordrule;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSystemPasswordRuleFormContent : DEntityFormContent {
   mixin(ViewComponentThis!("SystemPasswordRuleFormContent"));

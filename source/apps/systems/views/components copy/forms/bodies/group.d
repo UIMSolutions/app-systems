@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.bodies.group;
+module apps.systems.views.components.forms.bodies.group;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSystemGroupFormContent : DEntityFormContent {
   mixin(ViewComponentThis!("SystemGroupFormContent"));

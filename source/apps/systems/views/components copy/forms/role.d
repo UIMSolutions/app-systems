@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.role;
+module apps.systems.views.components.forms.role;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DCTLRoleForm : DForm {
   mixin(ViewComponentThis!("CTLRoleForm"));
