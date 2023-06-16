@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.groups.handler;
+module apps.systems.views.components.forms.groups.handler;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSYSFormInputHandler : DFormInputHandler {
   mixin(ViewComponentThis!("SYSFormInputHandler"));

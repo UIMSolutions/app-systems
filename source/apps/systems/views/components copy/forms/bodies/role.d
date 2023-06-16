@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.bodies.role;
+module apps.systems.views.components.forms.bodies.role;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSystemRoleFormContent : DEntityFormContent {
   mixin(ViewComponentThis!("SystemRoleFormContent"));

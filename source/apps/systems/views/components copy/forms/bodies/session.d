@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.bodies.session;
+module apps.systems.views.components.forms.bodies.session;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSystemSessionFormContent : DEntityFormContent {
   mixin(ViewComponentThis!("SystemSessionFormContent"));

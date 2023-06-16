@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.bodies.request;
+module apps.systems.views.components.forms.bodies.request;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 class DSystemRequestFormContent : DEntityFormContent {
   mixin(ViewComponentThis!("SystemRequestFormContent"));

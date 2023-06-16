@@ -1,7 +1,7 @@
-module uim.systems.views.components.forms.groups.active;
+module apps.systems.views.components.forms.groups.active;
 
 @safe:
-import uim.systems;
+import apps.systems;
 
 /* class DCTLActiveFormInput : DSwitchFormInput {
   mixin(ViewComponentThis!("CTLActiveFormInput"));
