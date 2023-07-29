@@ -2,8 +2,10 @@ module apps.systems;
 
 mixin(ImportPhobos!());
 
-// Dub
-public import vibe.d;
+// External
+public {
+  import vibe.d;
+}
 
 // UIM
 public {
@@ -28,11 +30,18 @@ public {
 }
 
 static this() {
-  AppRegistry.register("apps.systems",  
-    App("systemsApp", "/apps/systems")
-      .addRoutes(
-        Route("", HTTPMethod.GET, IndexPageController),
-        Route("/", HTTPMethod.GET, IndexPageController)
-      )
+  auto myApp = App("systemsApp", "apps/systems");
+
+  with (myApp) {
+    importTranslations;
+    addControllers([
+      "systems.index": IndexPageController
+    ]);
+    addRoutes(
+      Route("", HTTPMethod.GET, controller("systems.index")),
+      Route("/", HTTPMethod.GET, controller("systems.index"))
     );
+  }
+
+  AppRegistry.register("apps.systems", myApp);
 }
